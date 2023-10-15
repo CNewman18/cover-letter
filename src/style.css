@@ -11,9 +11,22 @@ h1,
 h2,
 p {
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 70px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+.page-1-container h2 {
+  margin: 30px auto;
 }
 
 a {
@@ -43,4 +56,9 @@ a:hover {
 .secondary-container {
   background-color: var(--secondary-color);
   color: var(--primary-color);
+}
+
+.big {
+  font-size: larger;
+  font-weight: 600;
 }
